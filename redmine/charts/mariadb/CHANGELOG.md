@@ -1,8 +1,21 @@
 # Changelog
 
-## 20.3.0 (2025-02-18)
+## 20.4.1 (2025-02-25)
 
-* [bitnami/mariadb] feat: Add Transparent Data Encryption support ([#31706](https://github.com/bitnami/charts/pull/31706))
+* [bitnami/mariadb] hotfix: Fix issue when `auth.username` is not set and `usePasswordFiles=true` ([#32161](https://github.com/bitnami/charts/pull/32161))
+
+## 20.4.0 (2025-02-24)
+
+* [bitnami/mariadb] Set `usePasswordFiles=true` by default (#32110) ([67bee27](https://github.com/bitnami/charts/commit/67bee2740826d26850942add477ff8ecb97e5259)), closes [#32110](https://github.com/bitnami/charts/issues/32110)
+
+## <small>20.3.1 (2025-02-19)</small>
+
+* [bitnami/mariadb] Release 20.3.1 (#32014) ([63c32e1](https://github.com/bitnami/charts/commit/63c32e150638ce4bc742ee8a083514eaa7903d8d)), closes [#32014](https://github.com/bitnami/charts/issues/32014)
+
+## 20.3.0 (2025-02-19)
+
+* [bitnami/*] Fix typo in named template name (#31858) ([b739b69](https://github.com/bitnami/charts/commit/b739b69532e637bd33b4a44eeb422c3e749eac77)), closes [#31858](https://github.com/bitnami/charts/issues/31858)
+* [bitnami/mariadb] feat: Add Transparent Data Encryption support (#31706) ([486712d](https://github.com/bitnami/charts/commit/486712d975d5fd85fe764e42f042b4a185599155)), closes [#31706](https://github.com/bitnami/charts/issues/31706)
 
 ## <small>20.2.4 (2025-02-17)</small>
 
